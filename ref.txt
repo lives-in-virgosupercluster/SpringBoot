@@ -1,0 +1,83 @@
+Spring Framework-
+
+Spring Framework open source framework for building enterprise java application
+
+aims to simplify the complex enterprise java application dev
+
+lightweight
+
+spring consists of spring web flow, spring mvc,spring orm
+
+Core features-
+IOC-inversion on control container
+AOP-aspect oriented programming
+DAF-Data access Framework
+MVC-Spring MVC Framework
+
+Spring bean-
+an object that is managed by the spring framework in a java application
+
+can be configured using java code
+
+bean life cycle is managed by the spring container
+
+Configuration example-
+
+@configuration declares class as "full" configuration class
+class must be non-final and public
+
+@bean declares bean config inside config class
+
+method must be non-final and non-private
+
+@Configuration
+public classs AppConfig{
+    @Bean 
+    public PaymentService paymentService(
+        AccountRepository accountRepository
+    )
+    {
+        return new PaymentServiceImpl(accountRepository());
+    }
+}
+
+Spring Component Sample-
+Spring Component contains class-level annotation that marks class as a Spring Component(@Component)
+
+Construtor-dependency injection is automatically done using @Autowired by injecting the constructor  parameters
+
+@autowired on Construtor is optional if there is only one constructor
+
+Spring provides component stereotype to classify classes as spring components
+->sub-types are available as a refinement for the standard components
+
+@Component as a general component annotation indicating that the class should be initialized,configured and managed by the core container.
+
+@Repository, @Service and @Controller as meta-annotation for @Component that allows to further re-fine components
+to name bean  @Bean("ds")
+
+Dependency Injection-
+Constructor Injection
+Field Injection
+Configuration Methods
+Setter Methods Injection
+
+
+Bean Scope-
+Spring Provides multiple scopes
+Singleton is the default scope of a bean
+
+
+scopes-
+Singleton
+prototype
+request
+session
+application
+websocket
+
+@Scope("prototype")
+
+Bean Environment-
+Environment Abstraction-
+Injectable-

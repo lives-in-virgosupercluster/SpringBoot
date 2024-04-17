@@ -81,3 +81,10 @@ websocket
 Bean Environment-
 Environment Abstraction-
 Injectable-
+
+Bean Profile-
+@Profile("cloud")
+
+@value annotation
+@PropertySource
+@Value()

@@ -90,3 +90,6 @@ Bean Profile-
 @Value()
 
 Day-2
+.mvn folder is for maven
+we dont have to separately download maven
+a wrapper folder is there which enables us to use maven

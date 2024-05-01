@@ -93,3 +93,7 @@ Day-2
 .mvn folder is for maven
 we dont have to separately download maven
 a wrapper folder is there which enables us to use maven
+
+
+profiles are made for different stages dev test prod
+for each profile different env variables are set.

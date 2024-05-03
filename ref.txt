@@ -97,5 +97,7 @@ a wrapper folder is there which enables us to use maven
 
 profiles are made for different stages dev test prod
 for each profile different env variables are set.
+Day-3
 
 Learn how to make REST API in java Springboot
+RequestBody annotation is used for sending a body

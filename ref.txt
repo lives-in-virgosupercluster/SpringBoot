@@ -101,3 +101,6 @@ Day-3
 
 Learn how to make REST API in java Springboot
 RequestBody annotation is used for sending a body
+
+Day-4
+Dbeaver can be used for Database connecting databases

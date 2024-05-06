@@ -104,3 +104,5 @@ RequestBody annotation is used for sending a body
 
 Day-4
 Dbeaver can be used for Database connecting databases
+Day-5
+JPA used for persisting java objects in Databases

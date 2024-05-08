@@ -106,3 +106,22 @@ Day-4
 Dbeaver can be used for Database connecting databases
 Day-5
 JPA used for persisting java objects in Databases
+
+The @Component annotation
+We can use @Component annotation in our application to declare any class as the Spring’s managed components. Spring internally picks up and registers beans with @Component and doesn’t look for @Service and @Repository in general. Because the @Service and @Repository are also annotated with @Component.
+
+The @Component annotation is a generic stereotype annotation used to designate any Spring-managed component.
+It indicates that the annotated class is a candidate for auto-detection and bean registration during the component scanning process.
+It’s a general-purpose annotation and can be used to annotate any class that should be managed by the Spring container.
+
+
+The @Service annotation is also a specialization of @Component and is used to annotate classes that perform a specific service or business logic.
+It indicates that the annotated class is a service component, responsible for implementing business logic or coordinating the application’s workflow.
+It’s commonly used in service layer classes within the application.
+
+The @Repository annotation is a specialization of @Component and is used to annotate classes that serve as data access objects (DAOs) or repositories.
+It indicates that the annotated class is a repository, typically responsible for encapsulating data access logic such as CRUD operations on a database.
+It’s often used in combination with Spring’s data access technologies like Spring Data JPA or Spring JDBC.
+Any class that holds the database or persistent logic is annotated with @Repository. In other words, the DTO/DAO is annotated with @Repository with an optional name parameter
+
+

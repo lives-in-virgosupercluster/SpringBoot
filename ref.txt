@@ -114,7 +114,6 @@ The @Component annotation is a generic stereotype annotation used to designate a
 It indicates that the annotated class is a candidate for auto-detection and bean registration during the component scanning process.
 It’s a general-purpose annotation and can be used to annotate any class that should be managed by the Spring container.
 
-
 The @Service annotation is also a specialization of @Component and is used to annotate classes that perform a specific service or business logic.
 It indicates that the annotated class is a service component, responsible for implementing business logic or coordinating the application’s workflow.
 It’s commonly used in service layer classes within the application.

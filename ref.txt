@@ -123,4 +123,4 @@ It indicates that the annotated class is a repository, typically responsible for
 It’s often used in combination with Spring’s data access technologies like Spring Data JPA or Spring JDBC.
 Any class that holds the database or persistent logic is annotated with @Repository. In other words, the DTO/DAO is annotated with @Repository with an optional name parameter
 
-
+Java Enterprise Edition (Java EE), formerly known as Java 2 Platform, Enterprise Edition (J2EE), is a set of specifications, extending Java SE with specifications for enterprise features such as distributed computing and web services.

@@ -124,3 +124,5 @@ It’s often used in combination with Spring’s data access technologies like S
 Any class that holds the database or persistent logic is annotated with @Repository. In other words, the DTO/DAO is annotated with @Repository with an optional name parameter
 
 Java Enterprise Edition (Java EE), formerly known as Java 2 Platform, Enterprise Edition (J2EE), is a set of specifications, extending Java SE with specifications for enterprise features such as distributed computing and web services.
+
+Redis (REmote DIctionary Server) is an open source, in-memory, NoSQL key/value store that is used primarily as an application cache or quick-response database.
